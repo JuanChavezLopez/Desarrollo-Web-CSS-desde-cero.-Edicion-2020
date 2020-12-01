@@ -1,0 +1,57 @@
+/* ************************************* */
+.slide {
+  height: 300px;
+  width: 100%;
+
+  background-image: url(slider2.jpg);
+
+  font-size: 3em;
+  text-align: center;
+  line-height: 6em;
+}
+/* ************************************* */
+.menu {
+  background: darkcyan;
+
+  text-align: center;
+  font-size: 2em;
+  width: 100%;
+
+  /* INTERESANTE ACA MUESTRA UNA TODO EL SLIDER, LUEGO SE DESAPARECE CUANDO LLEGA AL MENU */
+  position: sticky;
+  top: 0px;
+  /* top: 0;
+    position: fixed;
+    
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+
+/* ************************************* */
+#button {
+  padding: 0;
+}
+
+#button li {
+  display: inline;
+}
+#button li a {
+  font-family: Arial;
+  font-size: 20px;
+  text-decoration: none;
+  float: left;
+  padding: 10px;
+  background-color: #2175bc;
+  color: #fff;
+  position: relative;
+}
+
+#button li a:hover {
+  background-color: #2586d7;
+  margin-top: -2;
+  padding-bottom: 20px;
+}
+/* ************************************* */
+.titulo {
+  margin: 0;
+}

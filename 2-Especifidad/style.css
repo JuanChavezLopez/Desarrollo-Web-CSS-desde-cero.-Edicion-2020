@@ -1,0 +1,43 @@
+/* USAMOS LA HERENCIA, en este caso (a) esta tomando el valor de p,en su color padre. */
+
+/* p{
+    color: red;
+    font-size: 1.5em;
+}
+
+a{
+    color: inherit;
+} */
+
+/* Etiqueta --> 0001 
+   clases y pseudoclases--> 0010
+   Id -->0100
+   Estilos en linea --> 1000
+   !important -->Gana a todo
+
+   important--> especifidad--> cascada
+
+*/
+#parrafo {
+  color: blueviolet ;
+}
+
+.parrafo {
+  color: lawngreen ;
+}
+a {
+  color: inherit;
+}
+p {
+  color: red;
+}
+
+
+
+#parrafo-2{
+    color: black !important;
+}
+
+p {
+    color: rgb(28, 7, 124) !important;
+  }

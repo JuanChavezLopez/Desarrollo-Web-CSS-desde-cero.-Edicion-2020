@@ -1,0 +1,43 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: sans-serif;
+  background-image: radial-gradient(circle,#b94bf8, #3a1957);
+  background-repeat: no-repeat;
+  margin: 0;
+  color: #eee;
+  height: 100vh;
+
+  
+
+}
+
+.grid-container{
+  display: grid;
+
+  /* vamos a dar una plantilla para cuatrp 4 columnas*/
+  grid-template-columns: 100px 50px 150px 10px;
+  grid-template-rows: 100px 120px 50px;
+  /* SEPARATION BETWEEN CELL */
+  grid-column-gap: 10px;
+  grid-row-gap: 15px;
+
+}
+
+.grid-item{
+   border: 1px solid;
+  display: flex;
+  /* aling item center of cell */
+  align-items: center;
+
+  text-align: center;
+  justify-content: center;
+
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+
+

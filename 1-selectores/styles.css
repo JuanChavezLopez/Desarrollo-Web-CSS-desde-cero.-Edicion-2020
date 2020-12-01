@@ -1,0 +1,114 @@
+/* SELECTOR DE ETIQUETA */
+/* 
+p{
+    color:red;
+}
+
+h1{
+    color: blue;
+} */
+
+/* selectores de clase : muy*/
+/* 
+.title{
+    color: green;
+}
+
+.text{
+    color: blueviolet;
+} */
+
+/* selecores de Id: solo se recomienda para :
+- anclas
+- javascrip: para acceder al DOM*/
+/* #title{
+    color: aqua;
+
+}
+#text{
+    color:blueviolet;
+
+} */
+
+/* selectores universales 
+SOLO PARA RESETEAR ELNAVEGADOR*/
+
+/* *{
+    color: red;
+} */
+
+/* SELECTORES DE ATRIBUTO */
+/* selecciona los eleentos que tienen ese atributo */
+[href="#"]{
+    color: green;
+}
+
+/* selecciona los elementos que tienen ese atributo y ese valor */
+
+[href="#"]{
+    color: red;
+}
+
+/* Selecciona los elementos que tienen ese atributo almenos ese valor una vez */
+
+[class~="verde"]{
+    color: green;
+}
+
+
+/* Selecciona los elementos que tienen ese atributo y exactamente ese valor o empieze por el valor seguido de un guion*/
+
+[class|="verde"]{
+    color: blue;
+}
+
+/* Selecciona los elementos que tienen ese atributo y empiezen por ese valor*/
+
+[class^="rojo"]{
+    color: rgba(214, 194, 15, 0.726);
+}
+
+/* Selecciona los elementos que tienen ese atributo y terminen por ese valor*/
+[class$="rojo"]{
+    color: rgba(236, 42, 16, 0.726);
+}
+
+/* Selecciona los elementos que tienen ese atributo y contengan ese valor*/
+[class="rojo"]{
+    color: rgba(135, 233, 43, 0.726);
+}
+
+
+/* ++++++SELECTORES COMBINADORES+++++ */
+
+/* selector de hermano adyacente */
+/* Selecciona el hermano que este justo por debaj de el. El estilo se aplica al hermano inferior */
+h1+h2{
+    color: red;
+}
+
+h2+h2{
+    color: blue;
+}
+
+/* selector de hermano general */
+
+/* selecciona todos los hermanos que este por debajo de el. El esilo se aplica a todos los hermanos*/
+
+h1~h3{
+    color: green;
+}
+
+/* selectores descendentes */
+/* Selecciona todos los hijos. El estilo se aplica a todos los hijos */
+
+div span{
+    color: red;
+}
+
+/* selector de hijo directo */
+/* Selecciona todos los hijos que sean directos, es decir que no esten dentro de otra etiquetas. El estilo se aplica a todo los hijos */
+
+p > span{
+    color: blueviolet;
+}

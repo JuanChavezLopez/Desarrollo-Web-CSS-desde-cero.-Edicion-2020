@@ -1,0 +1,46 @@
+/* limit cell */
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: sans-serif;
+  background-image: radial-gradient(circle,#b94bf8, #3a1957);
+  background-repeat: no-repeat;
+  margin: 0;
+  color: #eee;
+  height: 100vh;
+
+  
+
+}
+
+.grid-container{
+  display: grid;
+
+  /* vamos a dar una plantilla para cuatrp 4 columnas*/
+
+  /* con repeat podemos dar una caracteristica para que se repita*/
+  /* grid-template-columns: 100px repeat(3,50px) 100px; */
+
+grid-template-columns: repeat(0,20px 30px 20px);
+
+  /* grid-template-rows: 100px 100px 100px 100px; */
+
+
+}
+
+.grid-item{
+   border: 1px solid;
+  display: flex;
+  /* aling item center of cell */
+  align-items: center;
+
+  /* text-align: center; */
+  justify-content: center;
+
+  /* padding: 1rem 0; */
+  font-size: 2rem;
+}
+

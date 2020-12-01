@@ -1,0 +1,51 @@
+
+
+body{
+  font-size: 30px;
+}
+
+/* .title{
+  font-family: fantasy, Cochin, Georgia, Times, 'Times New Roman', serif, 'Times New Roman', Times, serif,'Courier New', Courier, monospace;
+
+  font-size: 2em;
+  font-size: 10vmin;
+  font-style: italic;
+  text-transform: capitalize;
+} */
+
+/* .span{
+  font-size: 200%;
+} */
+
+/* .paragraph{
+  font-weight: normal;
+} */
+
+
+.paragraph{
+  /* display: block; */
+  /* text-align: justify; */
+  /* text-indents: 50px; */
+}
+
+/* .link{
+  text-decoration: line-through;
+} */
+
+
+.box{
+  width: 200px;
+  height: 200px;
+  background: red;
+}
+
+.box__item{
+  line-height: 150px;
+  text-align: center;
+}
+
+.paragraph{
+  letter-spacing: 5px;
+}
+
+

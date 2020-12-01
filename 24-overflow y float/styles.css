@@ -1,0 +1,16 @@
+.article-float{
+
+  border: 1px solid blue;
+  /* padding: .5em;
+  height: 100px; */
+  overflow: hidden;
+  /* margin-left: .5em; */
+}
+
+
+
+.article-float img{
+  max-width: 50%;
+  float: right;
+  margin-right: 1.5em;
+}

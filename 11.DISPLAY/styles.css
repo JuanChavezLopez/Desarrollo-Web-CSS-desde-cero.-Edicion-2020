@@ -1,0 +1,20 @@
+
+/* este es un elemento en linea */
+.inline{
+    background: lime;
+    display: inline-block;
+    margin-bottom: 2em;
+    height: 400px;
+    display: none;
+   
+    
+  
+}
+
+
+/* este es un elemento en bloque */
+.block{
+    background: yellow;
+    margin: 0;
+    
+}

@@ -1,0 +1,103 @@
+/* limit cell */
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: sans-serif;
+  background-image: radial-gradient(circle,#b94bf8, #3a1957);
+  background-repeat: no-repeat;
+  margin: 0;
+  color: #eee;
+  height: 100vh;
+
+  
+
+}
+
+.grid-container{
+  display: grid;
+
+  /* vamos a dar una plantilla para cuatrp 4 columnas*/
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px;
+
+
+}
+
+.grid-item{
+   border: 1px solid;
+  display: flex;
+  /* aling item center of cell */
+  align-items: center;
+
+  text-align: center;
+  justify-content: center;
+
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+
+/* COLOUR OF CELL */
+
+.grid-item:nth-child(3),
+.grid-item:nth-child(4){
+  background: orange;
+}
+
+
+.grid-item:first-child,
+.grid-item:nth-child(2){
+  background: violet;
+}
+
+/* other colours  4 a 1*/
+
+.grid-item:nth-child(4){ 
+  grid-column-start: 1;
+   grid-row-start: 1;
+  
+}
+
+
+
+
+
+.grid-item:nth-child(4){ 
+  grid-column-start: 1;
+   grid-row-start: 1;
+  
+}
+
+/* estiramos la celda hijo 3 */
+
+.grid-item:nth-child(3){ 
+  grid-column-start: 3;
+   /* grid-row-start: span 1 ; */
+   grid-row-end:span 2;
+  
+}
+
+/* colour red -children 2 */
+
+/* .grid-item:nth-child(2){
+  background: red;
+} */
+
+
+/*  */
+.grid-item:nth-child(2){
+  /* grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4; */
+
+
+  /* no capen en las columnas */
+  grid-column: 1/2;
+  grid-row:  2/4;
+}
+
+

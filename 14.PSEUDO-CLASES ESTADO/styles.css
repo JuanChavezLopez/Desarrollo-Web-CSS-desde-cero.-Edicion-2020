@@ -1,0 +1,32 @@
+.input{
+    display: block;
+}
+
+.input:enabled{
+    background: red;
+
+}
+
+.input:disabled{
+    background: yellow;
+    border: none;
+}
+
+/* afectamos al checkbox */
+.input:checked + label{
+    font-size: 2em;
+}
+
+.input:in-range{
+    background: green;
+}
+
+
+.input:optional{
+    background: indigo;
+
+}
+
+.input:required{
+    background: lightcoral;
+}

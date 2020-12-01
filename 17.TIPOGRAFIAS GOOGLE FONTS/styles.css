@@ -1,0 +1,64 @@
+/* 
+
+body{
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+} */
+
+
+
+/* .span{
+  font-size: 200%;
+} */
+
+/* .paragraph{
+  font-weight: normal;
+} */
+
+
+
+  /* display: block; */
+  /* text-align: justify; */
+  /* text-indents: 50px; */
+
+
+/* .link{
+  text-decoration: line-through;
+} */
+
+@font-face {
+  src:url('assets/fonts/AngillaScript_PERSONAL_USE_ONLY.ttf');
+  font-family: 'myfont';
+}
+
+.title{
+  /* font-family: fantasy, Cochin, Georgia, Times, 'Times New Roman', serif, 'Times New Roman', Times, serif,'Courier New', Courier, monospace; */
+
+  font-size: 2em;
+  /* font-size: 10vmin; */
+  /* font-style: italic; */
+  /* text-transform: capitalize; */
+  font-family: 'myfont';
+} 
+
+
+
+.box{
+  width: 200px;
+  height: 200px;
+  background: red;
+}
+
+.box__item{
+  line-height: 150px;
+  text-align: center;
+}
+
+
+
+.paragraph{
+  letter-spacing: 5px;
+  font-family: myfont,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+

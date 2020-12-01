@@ -1,0 +1,37 @@
+
+/* RESET LIST */
+.list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.list {
+  list-style-position: outside;
+}
+
+/* .list__item::before{
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-image: url(img/check-mark-logo-villa-check.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-right: 2em;
+
+} */
+
+
+.list__item{
+  background: red;
+  float: left;
+  /* con el text indent separamos las palabras */
+  text-indent: 10px;
+  padding-right: 1em;
+}
+/* VINETAS POR FUERA */
+
+

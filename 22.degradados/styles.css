@@ -1,0 +1,21 @@
+.box{
+  width: 200px;
+  height: 200px;
+  /* border: 3px solid black; */
+  margin: 2em auto;
+
+  /* estos son los anguloe. */
+  /* background-image: linear-gradient(to bottom left ,red, blue,yellow); */
+
+  /* background-image: linear-gradient(20deg, blue,yellow); */
+
+  /* background-image: linear-gradient(blue 50%,yellow 50% 80%, red); */
+
+  /* DEAGRADADO READIALES */
+
+  background-image: radial-gradient(circle 100px at bottom right,yellow 50%,blue 50%);
+
+  
+
+
+}

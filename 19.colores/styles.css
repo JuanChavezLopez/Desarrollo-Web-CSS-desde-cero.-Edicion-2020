@@ -1,0 +1,55 @@
+
+body{
+    background: #333333;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: .5em;
+    text-align: center;
+    line-height: 2.5em;
+    font-size: 2.5em;
+    display: inline-block;
+
+}
+/* funciona la cascada */
+.box--color{
+    background: lime;
+    background-color: chartreuse;
+    
+}
+
+/* el color rgb da colores solidos */
+
+.box--rgb{
+    color: rgb(255, 125, 4);
+    background-color: aquamarine;
+}
+
+
+
+/* el color rgba le da la transparencia */
+.box--rgba{
+    color: rgba(255 , 125, 4, .5);
+    background-color: rgb(255, 125, 4,.3);
+
+}
+
+.box--hexa{
+    color: #ff0000;
+    background-color: blue;
+}
+
+.box--hsl{
+    background-color: hsla(0, 100%, 50%, 0.856);
+}
+
+
+/* tenemos un cuarto valor que va de cero a 1 */
+
+.box--hsla{
+    background-color: hsla(120, 22%, 30%, 1);
+
+}
