@@ -10,14 +10,17 @@
 .box1{
     background: lightgreen;
     position: relative;
+    /* top y left tienen preferencia ante bottom y rigth */
     /* top rigth botton left z-index */
     /* top: 100px;
     left: 50px; */
     /* si declaramos z-index automaticamente si dibuja por encima por tener un valor mayor que el por defecto */
-    /* z-index: 1; */
+    /* z-index: 1; si declaramos z-index, automaticamente se dibuja por encima, por tener un valor mayor, que por defecto*/
     /* top t left tienen preferencia ante right y botton */
 
-    top: 500px;
+    /* top: 100px;
+    left: 50px;
+    z-index: 1; */
    
 }
 

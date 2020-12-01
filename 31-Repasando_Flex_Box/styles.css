@@ -2,12 +2,19 @@
   background-color: #fca17d;
   padding: .5em 0;
   display: flex;
+  height: 400px;
   /* flex-direction: column-reverse; */
 
 
   /* ESTO ES PARA SALTOS DE LINEA */
+  /* flex-wrap: wrap; */
+  /* flex-direction: column; */
+  /* justify-content: space-around; */
+  /* flex-wrap: wrap; */
   flex-wrap: wrap;
+  align-content: flex-end;
 }
+
 
 .flex-item{
   width: 30px;
