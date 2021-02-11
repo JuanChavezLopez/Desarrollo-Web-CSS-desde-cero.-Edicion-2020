@@ -1,4 +1,4 @@
-/* .link:link{
+.link:link{
 
     color: red;
 
@@ -11,7 +11,7 @@
 .link:active{
     color: cyan;
     background: red;
-} */
+} 
 
 .button{
     text-decoration: none;

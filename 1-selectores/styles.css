@@ -112,3 +112,8 @@ div span{
 p > span{
     color: blueviolet;
 }
+
+
+div > p{
+    color: red;;
+}

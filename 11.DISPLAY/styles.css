@@ -2,15 +2,13 @@
 /* este es un elemento en linea */
 .inline{
     background: lime;
-    display: inline-block;
+    /* display: inline-block; */
     margin-bottom: 2em;
     height: 400px;
+    display: inline-block;
     display: none;
-   
-    
   
 }
-
 
 /* este es un elemento en bloque */
 .block{

@@ -18,6 +18,7 @@ a{
 }
 
 .box-1{
+    display: inline-block;
     width: 100px;
     height: 100px;
     background: lime;
@@ -28,7 +29,16 @@ a{
 }
 
 .box-2{
+    /* display: inline-block; */
     width: 100px;
     height: 100px;
     background: lightcoral;
+}
+
+.box-3{
+    width: 200px;
+    height: 200px;
+    color: red;
+    background-color: red;
+    padding: 5px 10px 5px;
 }

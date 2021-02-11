@@ -1,6 +1,6 @@
 .title::first-letter{
     color: red;
-    font-size: 2em;
+    font-size: 3em;
 }
 
 .text::first-line{
@@ -19,8 +19,8 @@
 }
 
 .text::selection{
-    color: lime;
-    background: red;
+    color: yellow;
+    background: black;
 }
 
 .dolar::before, .dolar::after{

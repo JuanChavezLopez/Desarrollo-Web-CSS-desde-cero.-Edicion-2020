@@ -19,7 +19,8 @@
 
   /* INTERESANTE ACA MUESTRA UNA TODO EL SLIDER, LUEGO SE DESAPARECE CUANDO LLEGA AL MENU */
   position: sticky;
-  top: 0px;
+  top: 0;
+  right: 0px;
   /* top: 0;
     position: fixed;
     

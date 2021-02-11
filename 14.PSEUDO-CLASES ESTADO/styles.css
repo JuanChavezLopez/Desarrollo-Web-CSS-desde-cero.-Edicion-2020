@@ -21,9 +21,12 @@
     background: green;
 }
 
+.input:out-of-range{
+    background-color: blue;
+}
 
 .input:optional{
-    background: indigo;
+    /* background: indigo; */
 
 }
 

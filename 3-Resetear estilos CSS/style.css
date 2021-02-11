@@ -1,3 +1,7 @@
+/* *, *:before, *:after{
+    box-sizing: border-box;
+} */
+
 .square{
     width: 300px;
     height: 300px;

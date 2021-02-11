@@ -25,19 +25,21 @@ a{
 .parrafo {
   color: lawngreen ;
 }
+
 a {
-  color: inherit;
+  /* color: inherit; */
 }
+
 p {
   color: red;
 }
 
 
 
-#parrafo-2{
+#parrafo-2 {
     color: black !important;
 }
 
 p {
-    color: rgb(28, 7, 124) !important;
-  }
+    color: green !important;
+}

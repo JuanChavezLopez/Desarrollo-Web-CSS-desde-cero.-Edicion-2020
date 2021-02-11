@@ -1,7 +1,5 @@
-.img-box{
+/* .img-box{
     width: 95%;
-    /* margin-left: auto;
-    margin-right: auto; */
     margin: 2em auto;
     position: relative;
     display: flex;
@@ -21,4 +19,38 @@
     color: lightcoral;
     font-size: 3em;
 
+} */
+
+
+
+/* !-----------BORDER----------- */
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+
+.outline {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    border: 55px solid red;
+    outline: 15px solid lightcoral;
+    outline-offset: 30px;
+}
+
+.border {
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    margin: 20px;
+    border: 10px dotted ;
+}
+
+.flecha {
+    width: 300px;
+    height: 200px;
+    background: yellow;
+    border: 100px solid red;
+    border-top-width: 200px;
+    border-top-color: transparent;
 }

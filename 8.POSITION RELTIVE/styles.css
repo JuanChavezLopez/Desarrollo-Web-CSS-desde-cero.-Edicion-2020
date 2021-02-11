@@ -10,6 +10,9 @@
 .box1{
     background: lightgreen;
     position: relative;
+
+    top: 50px;
+    left: 50px;
     /* top y left tienen preferencia ante bottom y rigth */
     /* top rigth botton left z-index */
     /* top: 100px;
@@ -22,6 +25,11 @@
     left: 50px;
     z-index: 1; */
    
+}
+
+p {
+    position: relative;
+    z-index: 10;
 }
 
 .box2{
